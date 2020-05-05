@@ -61,7 +61,7 @@ const questionData = [
       },
       {
         type: "introversion",
-        answer: "internal, reticent, keep to yourself",
+        answer: "reflective, deliberate",
       },
     ],
   },
@@ -180,7 +180,7 @@ const questionData = [
       },
       {
         type: "Feeling",
-        answer: "ender-hearted, merciful",
+        answer: "tender-hearted, merciful",
       },
     ],
   },

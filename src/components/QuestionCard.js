@@ -1,14 +1,16 @@
 import React, { Component } from "react";
+import AnswerOption from "./utils/AnswerOption";
 
 class QuestionCard extends Component {
   render() {
+    const questionText = this.props.questionItem.question;
+    const AnswerOptions = this.props.questionItem.options.map((option) => {
+      return <AnswerOption option={option} key={option} />;
+    });
     return (
       <div>
-        <h3>Testing a question</h3>
-        <div>
-          <button>Option 1</button>
-          <button>Option 2</button>
-        </div>
+        <h3>{questionText}</h3>
+        <div>{AnswerOptions}</div>
       </div>
     );
   }
