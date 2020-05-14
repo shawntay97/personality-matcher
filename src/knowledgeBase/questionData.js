@@ -1,265 +1,265 @@
 const questionData = [
   // E-I Scale
   {
-    question: null,
-    options: [
+    question: "Choose one that best describes you",
+    answers: [
       {
-        type: "extraversion",
-        answer: "Expand energy, enjoy groups",
+        type: "Extraversion",
+        content: "Expand energy, enjoy groups",
       },
       {
-        type: "introversion",
-        answer: "Conserve energy, enjoy one-on-one",
-      },
-    ],
-  },
-  {
-    question: null,
-    options: [
-      {
-        type: "extraversion",
-        answer: "More outgoing, think out loud",
-      },
-      {
-        type: "introversion",
-        answer: "More reserved, think to yourself",
+        type: "Introversion",
+        content: "Conserve energy, enjoy one-on-one",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
-        type: "extraversion",
-        answer: "Seek many tasks, public activities, interaction with others",
+        type: "Extraversion",
+        content: "More outgoing, think out loud",
       },
       {
-        type: "introversion",
-        answer: "Seek private solitary activities with quiet to concentrate",
-      },
-    ],
-  },
-  {
-    question: null,
-    options: [
-      {
-        type: "extraversion",
-        answer: "external, communicative, express yourself",
-      },
-      {
-        type: "introversion",
-        answer: "internal, reticent, keep to yourself",
+        type: "Introversion",
+        content: "More reserved, think to yourself",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
-        type: "extraversion",
-        answer: "active, initiate",
+        type: "Extraversion",
+        content: "Seek many tasks, public activities, interaction with others",
       },
       {
-        type: "introversion",
-        answer: "reflective, deliberate",
+        type: "Introversion",
+        content: "Seek private solitary activities with quiet to concentrate",
+      },
+    ],
+  },
+  {
+    question: "Choose the one the best describes you",
+    answers: [
+      {
+        type: "Extraversion",
+        content: "external, communicative, express yourself",
+      },
+      {
+        type: "Introversion",
+        content: "internal, reticent, keep to yourself",
+      },
+    ],
+  },
+  {
+    question: "Choose the one the best describes you",
+    answers: [
+      {
+        type: "Extraversion",
+        content: "active, initiate",
+      },
+      {
+        type: "Introversion",
+        content: "reflective, deliberate",
       },
     ],
   },
   // S-N Scale
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
-        type: "Sesnsing",
-        answer: "interpret literally",
+        type: "Sensing",
+        content: "interpret literally",
       },
       {
         type: "iNtuitive",
-        answer: "look for meaning and possibilities",
+        content: "look for meaning and possibilities",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
-        type: "Sesnsing",
-        answer: "practical, realistic, experiential",
+        type: "Sensing",
+        content: "practical, realistic, experiential",
       },
       {
         type: "iNtuitive",
-        answer: "imaginative, innovative, theoretical",
+        content: "imaginative, innovative, theoretical",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
-        type: "Sesnsing",
-        answer: "standard, usual, conventional",
+        type: "Sensing",
+        content: "standard, usual, conventional",
       },
       {
         type: "iNtuitive",
-        answer: "different, novel, unique",
+        content: "different, novel, unique",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
-        type: "Sesnsing",
-        answer: "focus on here-and-now",
+        type: "Sensing",
+        content: "focus on here-and-now",
       },
       {
         type: "iNtuitive",
-        answer: "look to the future, global perspective, big picture”",
+        content: "look to the future, global perspective, big picture”",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
-        type: "Sesnsing",
-        answer: 'facts, things, "what is"',
+        type: "Sensing",
+        content: 'facts, things, "what is"',
       },
       {
         type: "iNtuitive",
-        answer: "ideas, dreams, “what could be,” philosophical",
+        content: "ideas, dreams, “what could be,” philosophical",
       },
     ],
   },
   // T-F Scale
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Thinking",
-        answer: "logical, thinking, questioning",
+        content: "logical, thinking, questioning",
       },
       {
         type: "Feeling",
-        answer: "empathetic, feeling, accommodating",
+        content: "empathetic, feeling, accommodating",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Thinking",
-        answer: "candid, straight forward, frank ",
+        content: "candid, straight forward, frank ",
       },
       {
         type: "Feeling",
-        answer: "tactful, kind, encouraging",
+        content: "tactful, kind, encouraging",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Thinking",
-        answer: "firm, tend to criticize, hold the line",
+        content: "firm, tend to criticize, hold the line",
       },
       {
         type: "Feeling",
-        answer: "gentle, tend to appreciate, conciliate",
+        content: "gentle, tend to appreciate, conciliate",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Thinking",
-        answer: "tough-minded, just",
+        content: "tough-minded, just",
       },
       {
         type: "Feeling",
-        answer: "tender-hearted, merciful",
+        content: "tender-hearted, merciful",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Thinking",
-        answer: "matter of fact, issue-oriented",
+        content: "matter of fact, issue-oriented",
       },
       {
         type: "Feeling",
-        answer: "sensitive, people-oriented, compassionate",
+        content: "sensitive, people-oriented, compassionate",
       },
     ],
   },
   // J-P Scale
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Judging",
-        answer: "organized, orderly",
+        content: "organized, orderly",
       },
       {
         type: "Perceptive",
-        answer: "flexible, adaptable",
+        content: "flexible, adaptable",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Judging",
-        answer: "plan, schedule",
+        content: "plan, schedule",
       },
       {
         type: "Perceptive",
-        answer: "unplanned, spontaneous",
+        content: "unplanned, spontaneous",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Judging",
-        answer: "regulated, structured",
+        content: "regulated, structured",
       },
       {
         type: "Perceptive",
-        answer: "easygoing, “live” and “let live”",
+        content: "easygoing, “live” and “let live”",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Judging",
-        answer: "preparation, plan ahead",
+        content: "preparation, plan ahead",
       },
       {
         type: "Perceptive",
-        answer: "go with the flow, adapt as you go",
+        content: "go with the flow, adapt as you go",
       },
     ],
   },
   {
-    question: null,
-    options: [
+    question: "Choose the one the best describes you",
+    answers: [
       {
         type: "Judging",
-        answer: "control, govern",
+        content: "control, govern",
       },
       {
         type: "Perceptive",
-        answer: "latitude, freedom",
+        content: "latitude, freedom",
       },
     ],
   },
