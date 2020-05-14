@@ -102,10 +102,12 @@ class App extends Component {
       answersCount["Judging"] > answersCount["Perceptive"] ? "J" : "P";
 
     const mbtiResult = `${scale1}${scale2}${scale3}${scale4}`;
+    console.log("get result returns:", mbtiResult);
     return mbtiResult;
   }
 
   setResults(result) {
+    console.log("result len: ", result.length);
     if (result.length === 4) {
       this.setState({
         result: result,
@@ -143,7 +145,7 @@ class App extends Component {
     const matches = this.state.matchData.filter(function (filterMatch) {
       return filterMatch.personalityType.includes(result);
     });
-
+    console.log("mbtidadaitem: ", mbtiDataItem);
     return <Result quizResult={result} mbti={mbtiDataItem} matches={matches} />;
   }
 
