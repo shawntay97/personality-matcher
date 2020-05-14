@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import questionData from "./knowledgeBase/questionData";
 import Result from "./components/Result";
 import Quiz from "./components/Quiz";
+import questionData from "./knowledgeBase/questionData";
 import mbtiData from "./knowledgeBase/mbtiData";
+import matchData from "./knowledgeBase/matchData";
 
 import "./App.css";
 
@@ -28,6 +29,7 @@ class App extends Component {
       },
       result: "",
       mbtiData: {},
+      matchData: {},
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -62,6 +64,7 @@ class App extends Component {
       question: questionData[0].question,
       answerOptions: shuffledAnswerOptions[0],
       mbtiData: mbtiData,
+      matchData: matchData,
     });
 
     console.log("mbtidata: ", mbtiData);
@@ -142,13 +145,15 @@ class App extends Component {
   }
 
   renderResult() {
-    console.log("stateresult: ", this.state.result);
-    return (
-      <Result
-        quizResult={this.state.result}
-        mbti={this.state.mbtiData[this.state.result]}
-      />
-    );
+    const result = this.state.result;
+    const mbtiDataItem = this.state.mbtiData[this.state.result];
+    const matches = this.state.matchData.filter(function (filterMatch) {
+      return filterMatch.personalityType.includes(result);
+    });
+    console.log("result at render result: ", result);
+    console.log("matches at renderResult: ", matches);
+
+    return <Result quizResult={result} mbti={mbtiDataItem} matches={matches} />;
   }
 
   render() {
