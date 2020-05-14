@@ -128,3 +128,5 @@ const mbtiData = {
     trait: "",
   },
 };
+
+export default mbtiData;

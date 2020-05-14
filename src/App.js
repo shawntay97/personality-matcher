@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-// import QuestionCard from "./components/QuestionCard";
 import questionData from "./knowledgeBase/questionData";
-// import Question from "./components/Question";
 import Result from "./components/Result";
 import Quiz from "./components/Quiz";
+import mbtiData from "./knowledgeBase/mbtiData";
 
 import "./App.css";
 
@@ -28,6 +27,7 @@ class App extends Component {
         Perceptive: 0,
       },
       result: "",
+      mbtiData: {},
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
@@ -54,7 +54,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-    console.log("qd: ", questionData);
     const shuffledAnswerOptions = questionData.map((question) =>
       this.shuffleArray(question.answers)
     );
@@ -62,7 +61,10 @@ class App extends Component {
     this.setState({
       question: questionData[0].question,
       answerOptions: shuffledAnswerOptions[0],
+      mbtiData: mbtiData,
     });
+
+    console.log("mbtidata: ", mbtiData);
   }
 
   setUserAnswer(answer) {
@@ -110,7 +112,7 @@ class App extends Component {
     console.log("setting result: ", result);
     if (result.length === 4) {
       this.setState({
-        result: `${result[0]} , ${result[1]}, ${result[2]}, ${result[3]}`,
+        result: result,
       });
     } else {
       this.setState({ result: "Undetermined" });
@@ -140,7 +142,13 @@ class App extends Component {
   }
 
   renderResult() {
-    return <Result quizResult={this.state.result} />;
+    console.log("stateresult: ", this.state.result);
+    return (
+      <Result
+        quizResult={this.state.result}
+        mbti={this.state.mbtiData[this.state.result]}
+      />
+    );
   }
 
   render() {
