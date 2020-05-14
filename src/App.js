@@ -36,7 +36,6 @@ class App extends Component {
   }
 
   shuffleArray(array) {
-    console.log("array:", array);
     let currentIndex = array.length,
       temporaryValue,
       randomIndex;
@@ -66,8 +65,6 @@ class App extends Component {
       mbtiData: mbtiData,
       matchData: matchData,
     });
-
-    console.log("mbtidata: ", mbtiData);
   }
 
   setUserAnswer(answer) {
@@ -79,7 +76,6 @@ class App extends Component {
       },
       answer: answer,
     }));
-    console.log("state answerCount: ", this.state.answersCount);
   }
 
   setNextQuestion() {
@@ -96,7 +92,6 @@ class App extends Component {
 
   getResults() {
     const answersCount = this.state.answersCount;
-    console.log("as2:", answersCount);
     const scale1 =
       answersCount["Introversion"] > answersCount["Extraversion"] ? "I" : "E";
     const scale2 =
@@ -107,12 +102,10 @@ class App extends Component {
       answersCount["Judging"] > answersCount["Perceptive"] ? "J" : "P";
 
     const mbtiResult = `${scale1}${scale2}${scale3}${scale4}`;
-    console.log("mbtiResult: ", mbtiResult);
     return mbtiResult;
   }
 
   setResults(result) {
-    console.log("setting result: ", result);
     if (result.length === 4) {
       this.setState({
         result: result,
@@ -150,8 +143,6 @@ class App extends Component {
     const matches = this.state.matchData.filter(function (filterMatch) {
       return filterMatch.personalityType.includes(result);
     });
-    console.log("result at render result: ", result);
-    console.log("matches at renderResult: ", matches);
 
     return <Result quizResult={result} mbti={mbtiDataItem} matches={matches} />;
   }

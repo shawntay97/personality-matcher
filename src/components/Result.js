@@ -2,7 +2,6 @@ import React from "react";
 import CompatibleMatch from "./utils/CompatibleMatch";
 
 function Result(props) {
-  console.log("thisprops in results: ", props);
   const compatibleMatches = props.matches.map((matchItem) => {
     return <CompatibleMatch matchItem={matchItem} key={matchItem.id} />;
   });
