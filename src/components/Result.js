@@ -1,6 +1,5 @@
 import React from "react";
 import CompatibleMatch from "./utils/CompatibleMatch";
-import { CSSTransitionGroup } from "react-transition-group";
 
 function Result(props) {
   const compatibleMatches = props.matches.map((matchItem) => {
@@ -8,15 +7,7 @@ function Result(props) {
   });
 
   return (
-    <CSSTransitionGroup
-      className="container result"
-      component="div"
-      transitionName="fade"
-      transitionEnterTimeout={800}
-      transitionLeaveTimeout={500}
-      transitionAppear
-      transitionAppearTimeout={500}
-    >
+    <div>
       <div>
         Your personality type is <strong>{props.quizResult}</strong>! <br />
         MBTI: {props.mbti.mbti} <br />
@@ -25,7 +16,7 @@ function Result(props) {
         Description: {props.mbti.description}
       </div>
       <div>{compatibleMatches}</div>
-    </CSSTransitionGroup>
+    </div>
   );
 }
 
