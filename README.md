@@ -1,5 +1,7 @@
 # Personality Matcher Expert System
 
+[Compatibility is more important than chemistry.](https://www.facebook.com/JayShettyIW/videos/169361101067142/)
+
 This personality matcher will let you know what kind of partner you should look for. Just answer a series of questions based on the myers briggs personality test and it will determine your personality type. Based on the knowledge base, the system will determine the most suitable persoanlity type of your life partner.
 
 ## Updating the Knowledge Base
