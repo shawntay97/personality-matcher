@@ -151,7 +151,12 @@ class App extends Component {
 
   render() {
     return (
-      <div>{this.state.result ? this.renderResult() : this.renderQuiz()}</div>
+      <div class="row">
+        <h1 style={{ textAlign: "center" }}>
+          Personality Compatibility Matcher
+        </h1>
+        <div>{this.state.result ? this.renderResult() : this.renderQuiz()}</div>
+      </div>
     );
   }
 }

@@ -14,7 +14,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Extraversion",
@@ -27,7 +27,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Extraversion",
@@ -40,7 +40,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Extraversion",
@@ -53,7 +53,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Extraversion",
@@ -67,7 +67,7 @@ const questionData = [
   },
   // S-N Scale
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Sensing",
@@ -80,7 +80,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Sensing",
@@ -93,7 +93,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Sensing",
@@ -106,7 +106,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Sensing",
@@ -119,7 +119,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Sensing",
@@ -133,7 +133,7 @@ const questionData = [
   },
   // T-F Scale
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Thinking",
@@ -146,7 +146,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Thinking",
@@ -159,7 +159,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Thinking",
@@ -172,7 +172,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Thinking",
@@ -185,7 +185,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Thinking",
@@ -199,7 +199,7 @@ const questionData = [
   },
   // J-P Scale
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Judging",
@@ -212,7 +212,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Judging",
@@ -225,7 +225,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Judging",
@@ -238,7 +238,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Judging",
@@ -251,7 +251,7 @@ const questionData = [
     ],
   },
   {
-    question: "Choose the one the best describes you",
+    question: "Choose one that best describes you",
     answers: [
       {
         type: "Judging",

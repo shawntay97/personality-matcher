@@ -2,10 +2,9 @@ import React from "react";
 
 function AnswerOption(props) {
   return (
-    <li className="answerOption">
+    <div style={{ margin: 10 }}>
       <input
         type="radio"
-        className="radioCustomButton"
         name="radioGroup"
         checked={props.answerType === props.answer}
         id={props.answerType}
@@ -13,10 +12,16 @@ function AnswerOption(props) {
         disabled={props.answer}
         onChange={props.onAnswerSelected}
       />
-      <label className="radioCustomLabel" htmlFor={props.answerType}>
-        {props.answerContent}
-      </label>
-    </li>
+      <div style={{ color: "orange", fontSize: 24 }}>
+        <i class="material-icons">chevron_right</i>
+        <label
+          style={{ color: "orange", fontSize: 22 }}
+          htmlFor={props.answerType}
+        >
+          {props.answerContent}
+        </label>
+      </div>
+    </div>
   );
 }
 
