@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/personality-matcher/static/css/main.b4b0eaf1.chunk.css",
-    "main.js": "/personality-matcher/static/js/main.f8f15323.chunk.js",
-    "main.js.map": "/personality-matcher/static/js/main.f8f15323.chunk.js.map",
+    "main.css": "/personality-matcher/static/css/main.e81cfe26.chunk.css",
+    "main.js": "/personality-matcher/static/js/main.5aaee5d1.chunk.js",
+    "main.js.map": "/personality-matcher/static/js/main.5aaee5d1.chunk.js.map",
     "runtime-main.js": "/personality-matcher/static/js/runtime-main.bef25211.js",
     "runtime-main.js.map": "/personality-matcher/static/js/runtime-main.bef25211.js.map",
-    "static/js/2.3739c685.chunk.js": "/personality-matcher/static/js/2.3739c685.chunk.js",
-    "static/js/2.3739c685.chunk.js.map": "/personality-matcher/static/js/2.3739c685.chunk.js.map",
+    "static/js/2.01006062.chunk.js": "/personality-matcher/static/js/2.01006062.chunk.js",
+    "static/js/2.01006062.chunk.js.map": "/personality-matcher/static/js/2.01006062.chunk.js.map",
     "index.html": "/personality-matcher/index.html",
-    "precache-manifest.a38b523dc3dd2e392dba265d271c27ca.js": "/personality-matcher/precache-manifest.a38b523dc3dd2e392dba265d271c27ca.js",
+    "precache-manifest.27698754b1c437773aced2f32d5d2bd6.js": "/personality-matcher/precache-manifest.27698754b1c437773aced2f32d5d2bd6.js",
     "service-worker.js": "/personality-matcher/service-worker.js",
-    "static/css/main.b4b0eaf1.chunk.css.map": "/personality-matcher/static/css/main.b4b0eaf1.chunk.css.map",
-    "static/js/2.3739c685.chunk.js.LICENSE.txt": "/personality-matcher/static/js/2.3739c685.chunk.js.LICENSE.txt"
+    "static/css/main.e81cfe26.chunk.css.map": "/personality-matcher/static/css/main.e81cfe26.chunk.css.map",
+    "static/js/2.01006062.chunk.js.LICENSE.txt": "/personality-matcher/static/js/2.01006062.chunk.js.LICENSE.txt",
+    "static/media/LoveMatchFGWide.png": "/personality-matcher/static/media/LoveMatchFGWide.d13e860b.png",
+    "static/media/match-img.png": "/personality-matcher/static/media/match-img.6ff100e1.png",
+    "static/media/mbti-explanation.jpg": "/personality-matcher/static/media/mbti-explanation.58b4bcb9.jpg",
+    "static/media/mbti-icon.jpg": "/personality-matcher/static/media/mbti-icon.588138d7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bef25211.js",
-    "static/js/2.3739c685.chunk.js",
-    "static/css/main.b4b0eaf1.chunk.css",
-    "static/js/main.f8f15323.chunk.js"
+    "static/js/2.01006062.chunk.js",
+    "static/css/main.e81cfe26.chunk.css",
+    "static/js/main.5aaee5d1.chunk.js"
   ]
 }
