@@ -62,6 +62,13 @@ const matchData = [
     description:
       "What makes this bond super special is that these personality types place a high value on intellect and have a shared eagerness and passion for learning, which means they’re bound to have an endlessly stimulating relationship. They can even enjoy a little healthy competition, motivating each other to improve in a variety of ways. Direct, analytical, and logical, these personalities tend to approach conflict in much the same way. They can engage in candid conversations about their problems, because neither type is overly sensitive — so they don’t have to sugar coat their thoughts to avoid hurting each other’s feelings. Another commonality for this duo is that they are both forward-thinking, and prefer to thoroughly think through their decisions. As a result, they have an easy time planning for the future together",
   },
+  {
+    id: 10,
+    personalityType: ["ENFP", "INTJ"],
+    type: "Ideal match",
+    description:
+      "Quiet but intense, the INFP and INTJ relationship is one where loyalty runs deep and ideas branch out in many directions. Both of these personality types share a passion for ideas and non-conformist ideals. Both find that their mind’s come alive in the quiet and peace of their alone time. However, when they’re together they refine each other’s ideas or improve upon them. This is a relationship that is often passionate, intense, and deeply creative. The similarities and differences between these two types allow them to easily connect on a variety of subjects and decisions, but still have enough of a difference that a spark of curiosity still remains.\n\nhttps://www.psychologyjunkie.com/2020/03/03/the-infp-and-intj-relationship/",
+  },
 ];
 
 export default matchData;

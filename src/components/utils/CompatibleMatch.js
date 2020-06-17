@@ -10,7 +10,7 @@ function CompatibleMatch(props) {
 
       <div class="card-content">
         <span class="card-title">
-          {props.matchItem.personalityType[0]} &#9829;
+          {props.matchItem.personalityType[0]}&#9829;
           {props.matchItem.personalityType[1]}
         </span>
 
@@ -21,7 +21,7 @@ function CompatibleMatch(props) {
         </span>
       </div>
 
-      <div class="card-reveal">
+      <div class="card-reveal lime lighten-5">
         <span class="card-title">
           Comparibility Description<i class="material-icons right">close</i>
         </span>
