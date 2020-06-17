@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61ecd8ea7a7fb6a2e9288bfba2599e13",
+    "revision": "fb58f85bf19d5c6166a485383b4ec007",
     "url": "/personality-matcher/index.html"
   },
   {
-    "revision": "b19db63f33556245231e",
+    "revision": "99dff58108a3d5475872",
     "url": "/personality-matcher/static/css/main.e81cfe26.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personality-matcher/static/js/2.01006062.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b19db63f33556245231e",
-    "url": "/personality-matcher/static/js/main.1f196461.chunk.js"
+    "revision": "99dff58108a3d5475872",
+    "url": "/personality-matcher/static/js/main.bca31739.chunk.js"
   },
   {
     "revision": "5e24ed8f16709063bf48",
